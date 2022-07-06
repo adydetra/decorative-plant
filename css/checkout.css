@@ -1,0 +1,199 @@
+/*------------------------------------------------------------------
+[Adityawarman Dewa Putra] [SMKN 1 JAKARTA] 
+
+Copyright 2021 By: Dewa Programming
+
+Project		:	Decoraive Plant
+Dibuat	    :	19/01/2021
+Instagram   :   @741_dewa -- @dewasmkn1jakarta
+-------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------
+[Judul]
+
+0. Default
+1. Nav
+2. Breadcrumb
+3. Page
+4. Footer
+-------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------------
+[0. Default]
+*------------------------------------------------------------------*/
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF !important;
+}
+
+* {
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, 
+.col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, 
+.col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, 
+.col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, 
+.col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, 
+.col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, 
+.col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.navbar-brand {
+    margin-right: 0px !important;
+}
+
+/*-------------------------------------------------------------------
+[1. Nav]
+*------------------------------------------------------------------*/
+nav {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    background: #FFFFFF !important;
+    padding: 100px 5%;
+}
+
+nav img {
+    width: 65px;
+    margin: auto!important;
+}
+
+
+
+/*-------------------------------------------------------------------
+[2. Breadcrumb]
+*------------------------------------------------------------------*/
+#breadcrumb {
+    background: #FFFFFF !important;
+    padding: 30px 5%;
+}
+
+#breadcrumb a {
+    color: #C4C4C4;
+}
+
+#breadcrumb a:hover {
+    text-decoration: none;
+}
+
+
+
+/*-------------------------------------------------------------------
+[3. Page]
+*------------------------------------------------------------------*/
+.page {
+    width: 100%;
+    padding: 0px 0px !important;
+}
+
+.page img {
+    width: 580px;
+	height: 398px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.page #description { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px !important;
+}
+
+.page #success { 
+	color: #000000;
+    font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size:32px;
+}
+
+.page #text { 
+	color: #000000;
+    font-family: 'Poppins', sans-serif;
+	text-align:center;
+	font-size:18px;
+	line-height:30px;
+}
+
+.page button { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+	box-shadow:0px 4px 20px rgba(0, 0, 0, 0.25);
+	background-color: #F07144;
+	width:321px;
+	height:64px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family:Poppins;
+	text-align:center;
+    font-size:20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.page button:focus {
+    outline: none;
+    border: none;
+}
+
+.page a:hover {
+    text-decoration: none;
+}
+ 
+
+
+/*-------------------------------------------------------------------
+[4. Footer]
+*------------------------------------------------------------------*/
+#footer { 
+	width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F6F8;
+}
+
+#footer #text { 
+	color: #8A8C97;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+@media only screen and (max-width: 628px) {
+    .page img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    
+    #breadcrumb {
+        font-size: 13px;    
+    }
+
+    .page #text {
+        font-size: 15px;
+    }
+
+    #footer #text { 
+        color: #8A8C97;
+        text-align: center;
+        font-size: 12px;
+    }
+}

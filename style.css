@@ -1,0 +1,418 @@
+/*------------------------------------------------------------------
+[Adityawarman Dewa Putra] [SMKN 1 JAKARTA] 
+
+Copyright 2021 By: Dewa Programming
+
+Project		:	Decoraive Plant
+Dibuat	    :	19/01/2021
+Instagram   :   @741_dewa -- @dewasmkn1jakarta
+-------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------
+[Judul]
+
+0. Default
+1. Nav
+2. Home
+3. Service
+4. Catalog
+5. Footer
+-------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------------
+[0. Default]
+*------------------------------------------------------------------*/
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF !important;
+}
+
+* {
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, 
+.col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, 
+.col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, 
+.col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, 
+.col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, 
+.col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, 
+.col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.navbar-brand {
+    margin-right: 0px !important;
+}
+
+/*-------------------------------------------------------------------
+[1. Nav]
+*------------------------------------------------------------------*/
+nav {
+    display: flex;
+    background: #FFFFFF !important;
+    padding: 20px 100px !important;
+}
+
+nav .navbar-toggler {
+	border: none !important;
+}
+
+nav .navbar-toggler:focus {
+	outline: none !important;
+	border: none !important;
+}
+
+nav ul li {
+    margin: 0px 10px !important;
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: #000000 !important;
+}
+
+nav img {
+    width: 65px;
+}
+
+nav #button { 
+	overflow:hidden;
+	width:123px;
+    height:40px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.10);
+}
+
+nav #background { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	box-shadow:0px 4px 10px rgba(0, 0, 0, 0.25);
+	background-color: #83D987;
+	width:123px;
+	height:40px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav #teks { 
+	color: #132039;
+	width:84px;
+	height:21px;
+	text-align:center;
+	font-size:14px;
+}
+
+
+/*-------------------------------------------------------------------
+[2. Home]
+*------------------------------------------------------------------*/
+.home {
+    background: url('image/cactus-bg.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh !important;
+}
+
+.navbar-nav {
+	justify-content: center;
+	align-items: center;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 991px) {
+	.navbar-nav {
+		align-items: flex-start !important;
+	}
+}
+
+.home .col-sm-12 {
+    padding: 280px 100px !important;
+}
+
+.home b {
+    font-size: 88px;
+}
+
+.home h1 {
+    font-size: 88px;
+    color:#0ACC94 !important;
+    font-weight: bold;
+}
+
+.home p {
+    font-size: 23px;
+    color: #000000 !important;
+    margin: 20px 15px !important;
+}
+
+.home button {  
+    color: #FFFFFF !important;
+    font-size: 25px;
+    box-shadow:0px 4px 20px rgba(0, 0, 0, 0.25);
+    background-color:#F07144;
+    width: 260px;
+    height: 80px;
+	border-radius: 15px;
+	margin-top: 50px;
+}
+
+
+
+/*-------------------------------------------------------------------
+[3. Service]
+*------------------------------------------------------------------*/
+.service {
+    background: #F5F6F8;
+    padding: 150px 200px !important;
+}
+
+/* left */
+.service #picture-square { 
+	overflow: hidden;
+	width: 524px;
+	height: 550px;
+}
+
+.service #pict-cover { 
+	width: 420px;
+	height: 550px;
+	position: absolute;
+	left: 50px;
+	top: 0px;
+}
+
+.service #pict-border { 
+	overflow: hidden;
+	background-color: #C4C4C4;
+	width: 420px;
+	height: 550px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border-radius: 25px;
+}
+
+.service #picture { 
+	width: 492px;
+	height: 737px;
+	position: absolute;
+	left: -33px;
+	top: -143px;
+	background-image:url('image/daun.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.service #text-1 { 
+	width: 316px;
+	height: 100px;
+	position: absolute;
+	left: 208px;
+    top: 29px;
+}
+
+.service #text-1-cube { 
+	background-color: #FFFFFF;
+	width: 316px;
+	height: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service #montera { 
+	color:#132039;
+	width: 128px;
+	height: 30px;
+	position: absolute;
+	left: 22px;
+	top: 20px;
+	text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.service #price { 
+	color:#0A9F82;
+	width: 90px;
+	height: 30px;
+	position: absolute;
+	left: 204px;
+	top: 35px;
+	text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.service #location { 
+    color:#898889;
+	height: 24px;
+	position: absolute;
+	left: 22px;
+	top: 50px;
+	text-align: left;
+	font-size: 16px;
+}
+
+.service #text-2 { 
+	width:141px;
+	height:70px;
+	position:absolute;
+	left:0px;
+	top:440px;
+}
+
+.service #text-2-cube { 
+	background-color:#F5D35C;
+	width:141px;
+	height:70px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-radius: 6px;
+}
+
+.service #healthy { 
+	color:#132039;
+	width:118px;
+	height:27px;
+	position:absolute;
+	left:12px;
+	top:21px;
+	text-align:center;
+    font-size:18px;
+    font-weight:bold;
+}
+
+/* Right*/
+.service #service-tittle {
+    color: #0F1837;
+    font-size: 32px;
+}
+
+.service-text {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px 0px 0px;
+}
+
+.service #text-cube { 
+	overflow:hidden;
+	width:351px;
+    height:52px;
+    margin: 0px 0px 0px 20px;
+}
+
+.service #text { 
+	color:#0F1837;
+	width:281px;
+	height:52px;
+	font-size:16px;
+}
+
+.service #number-cube { 
+	background: #E7E5F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	width:50px;
+	height:50px;
+	border-radius: 4px;
+}
+
+.service #number { 
+	color:#5943A6;
+	height:33px;
+	text-align:center;
+	font-size:22px;
+}
+
+
+
+/*-------------------------------------------------------------------
+[4. Catalog]
+*------------------------------------------------------------------*/
+.catalog {
+    padding: 100px 200px !important;
+}
+
+.catalog #catalog-tittle { 
+	color:#000000;
+	text-align:center;
+	font-size:28px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+
+.catalog .col-sm-12 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.catalog .card {
+	width: 300px;
+    border: 0px !important;
+    outline: 0 !important;
+    cursor: pointer;
+}
+
+.catalog .card-img-top {
+    background: transparent;
+    border-radius: 25px;
+}
+
+.catalog .card #tittle { 
+    color: #000000;
+    text-align:left;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.catalog .card #price {
+    color: #000000;
+    text-align:left;
+    font-size:18px; 
+    margin: -10px 0px 0px 0px !important;
+}
+
+.catalog a {
+    transition: 0.3s ease-in-out;
+}
+
+.catalog a:hover {
+    text-decoration: none;
+    margin-top: -10px;
+}
+
+
+
+/*-------------------------------------------------------------------
+[5. Footer]
+*------------------------------------------------------------------*/
+#footer { 
+	width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F6F8;
+}
+#footer #text { 
+	color: #8A8C97;
+	text-align: center;
+	font-size: 18px;
+}
