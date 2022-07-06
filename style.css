@@ -32,10 +32,10 @@ html, body {
 }
 
 * {
+	font-family: 'Poppins', sans-serif;
     box-sizing: border-box !important;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
 }
 
 .col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, 
@@ -309,17 +309,17 @@ nav #teks {
 }
 
 .service #text-cube { 
-	overflow:hidden;
-	width:351px;
-    height:52px;
+	overflow: hidden;
+	width: 351px;
+    height: 52px;
     margin: 0px 0px 0px 20px;
 }
 
 .service #text { 
 	color:#0F1837;
-	width:281px;
-	height:52px;
-	font-size:16px;
+	width: 281px;
+	height: 52px;
+	font-size: 16px;
 }
 
 .service #number-cube { 
@@ -327,16 +327,16 @@ nav #teks {
     display: flex;
     justify-content: center;
     align-items: center;
-	width:50px;
-	height:50px;
+	width: 50px;
+	height: 50px;
 	border-radius: 4px;
 }
 
 .service #number { 
 	color:#5943A6;
-	height:33px;
-	text-align:center;
-	font-size:22px;
+	height: 33px;
+	text-align: center;
+	font-size: 22px;
 }
 
 
@@ -350,8 +350,8 @@ nav #teks {
 
 .catalog #catalog-tittle { 
 	color:#000000;
-	text-align:center;
-	font-size:28px;
+	text-align: center;
+	font-size: 28px;
     font-weight: bold;
     line-height: 1.5;
     margin-bottom: 100px;
@@ -377,8 +377,8 @@ nav #teks {
 
 .catalog .card #tittle { 
     color: #000000;
-    text-align:left;
-    font-size:18px;
+    text-align: left;
+    font-size: 18px;
     font-weight: bold;
 }
 
