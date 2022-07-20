@@ -1,0 +1,25 @@
+@media only screen and (max-width: 576px) {
+    .navbar li a {
+        padding: 0.6rem 0 !important;
+    }
+
+    .navbar li a:nth-child(1) {
+        margin-top: 1rem;
+    }
+
+    .navbar img {
+        width: 100px;
+    }
+ 
+    #hero {
+        padding: 0 2rem;
+    }
+
+    #hero h1 {
+        font-size: 38px;
+    }
+
+    #about-company img {
+        height: unset !important;
+    }
+}

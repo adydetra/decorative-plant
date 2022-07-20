@@ -77,7 +77,7 @@ Instagram   :   @741_dewa -- @dewasmkn1jakarta
     *------------------------------------------------------------------*/
     .service {
         background: #F5F6F8;
-        padding: 80px 0px !important;
+        padding: 0px !important;
         display: flex;
         flex-wrap: wrap;
         width: 100%;
@@ -103,7 +103,7 @@ Instagram   :   @741_dewa -- @dewasmkn1jakarta
 
     /* left */
     .service #picture-square { 
-        width: 0px !important;
+        display: none;
         position: unset !important;;
     }
 
