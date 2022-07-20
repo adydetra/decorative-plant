@@ -46,6 +46,7 @@ Instagram   :   @741_dewa -- @dewasmkn1jakarta
     *------------------------------------------------------------------*/
     .home {
         background: none !important;
+        height: 100% !important;
     }
 
     .home .col-sm-12 {
