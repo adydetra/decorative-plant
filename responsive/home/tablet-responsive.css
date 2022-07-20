@@ -98,11 +98,11 @@ Instagram   :   @741_dewa -- @dewasmkn1jakarta
         align-items: center;
     }
 
-    .service .col-sm-7, .service .col-sm-5 {
+    .service .col-lg-7, .service .col-lg-5 {
         width: 100% !important;
     }
 
-    .service .col-sm-5 {
+    .service .col-lg-5 {
         margin-top: 30px;
         max-width: unset !important;
     }
