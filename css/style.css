@@ -117,7 +117,7 @@ nav #teks {
 [2. Home]
 *------------------------------------------------------------------*/
 .home {
-    background: url('image/cactus-bg.png');
+    background: url('/image/cactus-bg.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
