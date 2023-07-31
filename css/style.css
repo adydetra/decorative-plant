@@ -85,20 +85,24 @@ nav img {
 }
 
 nav #button { 
-	overflow:hidden;
-	width:123px;
-    height:40px;
+	overflow: hidden;
+	width: 123px;
+    height: 50px;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.10);
+}
+
+nav #button:hover {
+	text-decoration: none;
 }
 
 nav #background { 
     display: flex;
     justify-content: center;
     align-items: center;
-	box-shadow:0px 4px 10px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 	background-color: #83D987;
-	width:123px;
-	height:40px;
+	width: 123px;
+	height: 50px;
     border-radius: 4px;
     font-weight: bold;
     cursor: pointer;
@@ -106,10 +110,7 @@ nav #background {
 
 nav #teks { 
 	color: #132039;
-	width:84px;
-	height:21px;
-	text-align:center;
-	font-size:14px;
+	font-size: 14px;
 }
 
 
@@ -117,7 +118,7 @@ nav #teks {
 [2. Home]
 *------------------------------------------------------------------*/
 .home {
-    background: url('/image/cactus-bg.png');
+    background: url('../image/cactus-bg.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -209,7 +210,7 @@ nav #teks {
 	position: absolute;
 	left: -33px;
 	top: -143px;
-	background-image:url('/image/daun.png');
+	background-image:url('../image/daun.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -234,8 +235,6 @@ nav #teks {
 
 .service #montera { 
 	color:#132039;
-	width: 128px;
-	height: 30px;
 	position: absolute;
 	left: 22px;
 	top: 20px;
@@ -269,7 +268,7 @@ nav #teks {
 .service #text-2 { 
 	width:141px;
 	height:70px;
-	position:absolute;
+	position:relative;
 	left:0px;
 	top:440px;
 }
@@ -278,22 +277,17 @@ nav #teks {
 	background-color:#F5D35C;
 	width:141px;
 	height:70px;
-	position:absolute;
-	left:0px;
-	top:0px;
 	border-radius: 6px;
 }
 
 .service #healthy { 
-	color:#132039;
-	width:118px;
-	height:27px;
-	position:absolute;
-	left:12px;
-	top:21px;
-	text-align:center;
-    font-size:18px;
-    font-weight:bold;
+	color: #132039;
+	height: 27px;
+	position: absolute;
+	left: 15px;
+	top: 21px;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 /* Right*/
@@ -411,6 +405,7 @@ nav #teks {
     align-items: center;
     background-color: #F5F6F8;
 }
+
 #footer #text { 
 	color: #8A8C97;
 	text-align: center;

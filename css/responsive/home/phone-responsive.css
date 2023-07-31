@@ -3,9 +3,9 @@
 
 Copyright 2021 By: Dewa Programming
 
-Project		:	Decoraive Plant
+Project	    :	Decoraive Plant
 Dibuat	    :	19/01/2021
-Instagram   :   @741_dewa -- @dewasmkn1jakarta
+Instagram   :   @741_dewa -- @dev_dewa_id
 -------------------------------------------------------------------*/
 
 
@@ -103,7 +103,7 @@ Instagram   :   @741_dewa -- @dewasmkn1jakarta
     }
 
     .service .col-lg-5 {
-        margin-top: 30px;
+        padding: 3rem 0;
     }
 
     /* left */
@@ -162,12 +162,12 @@ Instagram   :   @741_dewa -- @dewasmkn1jakarta
     }
 
     .catalog #tittle {
-        font-size: 15px !important;
+        font-size: 13px !important;
         text-align: center !important;
     }
 
     .catalog #price {
-        font-size: 13px !important;
+        font-size: 11px !important;
         text-align: center !important;
     }
 
@@ -176,9 +176,10 @@ Instagram   :   @741_dewa -- @dewasmkn1jakarta
     *------------------------------------------------------------------*/
     #footer {
         padding: 0 1rem;
+        height: 70px;
     }
 
     #footer #text {
-        font-size: 12px !important;
+        font-size: 10px !important;
     }
 }
