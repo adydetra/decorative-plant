@@ -209,7 +209,7 @@ nav #teks {
 	position: absolute;
 	left: -33px;
 	top: -143px;
-	background-image:url('image/daun.png');
+	background-image:url('/image/daun.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
