@@ -348,7 +348,7 @@ nav #teks {
 	font-size: 28px;
     font-weight: bold;
     line-height: 1.5;
-    margin-bottom: 100px;
+    margin: 0 0 5rem 0;
 }
 
 .catalog .col-sm-12 {

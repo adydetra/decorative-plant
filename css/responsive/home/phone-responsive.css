@@ -171,6 +171,14 @@ Instagram   :   @741_dewa -- @dev_dewa_id
         text-align: center !important;
     }
 
+    .catalog .card-img-top {
+        border-radius: 15px;
+    }
+
+    .catalog #catalog-tittle {
+        margin: 0;
+    }
+
     /*-------------------------------------------------------------------
     [5. Footer]
     *------------------------------------------------------------------*/
