@@ -9,209 +9,226 @@
 
 <!DOCTYPE html>
 <html id="home" lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
     <title>Decorative Plant</title>
 
     <!-- CSS -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/responsive/home/phone-responsive.css" rel="stylesheet">
-    <link href="css/responsive/home/tablet-responsive.css" rel="stylesheet">
-    <link href="css/responsive/home/desktop-responsive.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/responsive/home/phone-responsive.css" rel="stylesheet" />
+    <link href="css/responsive/home/tablet-responsive.css" rel="stylesheet" />
+    <link href="css/responsive/home/desktop-responsive.css" rel="stylesheet" />
 
     <!-- JS -->
     <script src="js/bootstrap.js"></script>
     <script src="js/jquery.js"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+  </head>
+  <body>
     <!-- Nav -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><img src="image/logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" id="nav-home" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="nav-service" href="#service">Service</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="nav-catalog" href="#catalog">Catalog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="nav-contact" href="#contact">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" id="button">
-                        <div id="background"><span id="teks">My Account</span></div>
-                    </a>
-                </li>
-            </ul>
-        </div>
+      <a class="navbar-brand" href="#"><img src="image/logo.png" alt="logo" /></a>
+      <button class="navbar-toggler" name="hamburger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" id="nav-home" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-service" href="#service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-catalog" href="#catalog">Catalog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-contact" href="#contact">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" id="button">
+              <div id="background"><span id="teks">My Account</span></div>
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    
+
     <!-- Home -->
     <div class="home">
-        <div class="d-sm-flex">
-            <div class="col-sm-12">
-                <b> Welcome to </b>
-                <h1> Decorative Plant </h1>
-                <p> Your destination to exotic cacti and <br> succelent from all of the world</p>
-                <a id="button-service" href="#service"><button class="btn" type="button">Explore Now</button></a>
-            </div>
+      <div class="d-sm-flex">
+        <div class="col-sm-12">
+          <b> Welcome to </b>
+          <h1>Decorative Plant</h1>
+          <p>
+            Your destination to exotic cacti and <br />
+            succelent from all of the world
+          </p>
+          <a id="button-service" href="#service"><button class="btn" type="button">Explore Now</button></a>
         </div>
+      </div>
     </div>
 
     <!-- Service -->
     <div class="service" id="service">
-        <div class="d-sm-flex container">
-            <div class="col-md-12 col-lg-7">
-                <div id="picture-square">
-                    <div id="pict-cover">
-                      <div id="pict-border">
-                        <div id="picture"></div>
-                      </div>
-                    </div>
-                    <div id="text-1">
-                      <div id="text-1-cube"><p id="montera">Montera leaf</p><p id="price">$250,509</p><p id="location">Jakarta, indonesia</p></div>
-                    </div>
-                    <div id="text-2">
-                      <div id="text-2-cube"></div><p id="healthy">100% Healthy </p>
-                    </div>
-                </div>
+      <div class="d-sm-flex container">
+        <div class="col-md-12 col-lg-7">
+          <div id="picture-square">
+            <div id="pict-cover">
+              <div id="pict-border">
+                <div id="picture"></div>
+              </div>
             </div>
-            <div class="col-md-12 col-lg-5">
-                <div id="service-tittle">Services We Provide</div>
-                    <div class="service-text">
-                        <div id="number-cube"><span id="number">1</span></div>
-                        <div id="text-cube">
-                            <p id="text">We are not asking for any fee from
-                            both party (landlord or even buyer)</p>
-                        </div>
-                    </div>
-                    <div class="service-text">
-                        <div id="number-cube"><span id="number">2</span></div>
-                        <div id="text-cube">
-                            <p id="text">We take care every single thing that
-                            buyer need to complete beforehand</p>
-                        </div>
-                    </div>
-                    <div class="service-text">
-                        <div id="number-cube"><span id="number">3</span></div>
-                        <div id="text-cube">
-                            <p id="text">We help buyer to find the place without
-                            hassle and helping them with paperwork</p>
-                        </div>
-                    </div>
-                    <div class="service-text">
-                        <div id="number-cube"><span id="number">4</span></div>
-                        <div id="text-cube">
-                            <p id="text">We help landlord to register their license
-                            to goverment in order want to sell</p>
-                        </div>
-                    </div>
+            <div id="text-1">
+              <div id="text-1-cube">
+                <p id="montera">Montera leaf</p>
+                <p id="price">$250,509</p>
+                <p id="location">Jakarta, indonesia</p>
+              </div>
             </div>
+            <div id="text-2">
+              <div id="text-2-cube"></div>
+              <p id="healthy">100% Healthy</p>
+            </div>
+          </div>
         </div>
+        <div class="col-md-12 col-lg-5">
+          <div id="service-tittle">Services We Provide</div>
+          <div class="service-text">
+            <div id="number-cube"><span id="number">1</span></div>
+            <div id="text-cube">
+              <p id="text">We are not asking for any fee from both party (landlord or even buyer)</p>
+            </div>
+          </div>
+          <div class="service-text">
+            <div id="number-cube"><span id="number">2</span></div>
+            <div id="text-cube">
+              <p id="text">We take care every single thing that buyer need to complete beforehand</p>
+            </div>
+          </div>
+          <div class="service-text">
+            <div id="number-cube"><span id="number">3</span></div>
+            <div id="text-cube">
+              <p id="text">We help buyer to find the place without hassle and helping them with paperwork</p>
+            </div>
+          </div>
+          <div class="service-text">
+            <div id="number-cube"><span id="number">4</span></div>
+            <div id="text-cube">
+              <p id="text">We help landlord to register their license to goverment in order want to sell</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Catalog -->
     <div class="catalog" id="catalog">
-        <h2 id="catalog-tittle">The Catalog<br>This Tropical For You</h2>
-        <div class="d-sm-flex mt-5">
-            <div class="col-sm-12">
-                <a href="">
-                <div class="card">
-                    <img class="card-img-top" src="image/green-florest.jpg" alt="Green Florest">
-                    <div class="card-body">
-                        <p id="tittle">Green Florest</p>
-                        <p id="price">IDR 79.300.000</p>
-                    </div>
-                </div>
-                </a>
-                <a href="">
-                <div class="card">
-                    <img class="card-img-top" src="image/little-cactus.jpg" alt="Little Cactus">
-                    <div class="card-body">
-                        <p id="tittle">Little Cactus</p>
-                        <p id="price">IDR 67.000.000</p>
-                    </div>
-                </div>
-                </a>
-                <a href="">
-                <div class="card">
-                    <img class="card-img-top" src="image/monstera-hole.jpg" alt="Monstera Hole">
-                    <div class="card-body">
-                        <p id="tittle">Monstera Hole</p>
-                        <p id="price">IDR 12.000.000</p>
-                    </div>
-                </div>
-                </a>
-                <a href="detail.html">
-                <div class="card">
-                    <img class="card-img-top" src="image/pinky-cactus.jpg" alt="Pinky Cactus">
-                    <div class="card-body">
-                        <p id="tittle">Pinky Cactus</p>
-                        <p id="price">IDR 75.000.000</p>
-                    </div>
-                </div>
-                </a>
+      <h2 id="catalog-tittle">The Catalog<br />This Tropical For You</h2>
+      <div class="d-sm-flex mt-5">
+        <div class="col-sm-12">
+          <a href="detail.html">
+            <div class="card">
+              <img class="card-img-top" src="image/green-florest.jpg" alt="Green Florest" />
+              <div class="card-body">
+                <p id="tittle">Green Florest</p>
+                <p id="price">IDR 79.300.000</p>
+              </div>
             </div>
+          </a>
+          <a href="detail.html">
+            <div class="card">
+              <img class="card-img-top" src="image/little-cactus.jpg" alt="Little Cactus" />
+              <div class="card-body">
+                <p id="tittle">Little Cactus</p>
+                <p id="price">IDR 67.000.000</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail.html">
+            <div class="card">
+              <img class="card-img-top" src="image/monstera-hole.jpg" alt="Monstera Hole" />
+              <div class="card-body">
+                <p id="tittle">Monstera Hole</p>
+                <p id="price">IDR 12.000.000</p>
+              </div>
+            </div>
+          </a>
+          <a href="detail.html">
+            <div class="card">
+              <img class="card-img-top" src="image/pinky-cactus.jpg" alt="Pinky Cactus" />
+              <div class="card-body">
+                <p id="tittle">Pinky Cactus</p>
+                <p id="price">IDR 75.000.000</p>
+              </div>
+            </div>
+          </a>
         </div>
+      </div>
     </div>
 
     <!-- Footer -->
     <div id="footer">
-        <span id="text">Copyright 2021. All Rights Reserved Design by Team RPL SMKN 1 JAKARTA</span>
+      <span id="text">Copyright 2021. All Rights Reserved Design by Team RPL SMKN 1 JAKARTA</span>
     </div>
-
-</body>
+  </body>
 </html>
 <script type="text/javascript">
-    $("#button-service").click(function() {
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#service").offset().top
-        }, 1000);
-    });
+  $("#button-service").click(function () {
+    $([document.documentElement, document.body]).animate(
+      {
+        scrollTop: $("#service").offset().top,
+      },
+      1000
+    );
+  });
 </script>
 <script type="text/javascript">
-    $("#nav-home").click(function() {
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#home").offset().top
-        }, 1000);
-    });
+  $("#nav-home").click(function () {
+    $([document.documentElement, document.body]).animate(
+      {
+        scrollTop: $("#home").offset().top,
+      },
+      1000
+    );
+  });
 </script>
 <script type="text/javascript">
-    $("#nav-service").click(function() {
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#service").offset().top
-        }, 1000);
-    });
+  $("#nav-service").click(function () {
+    $([document.documentElement, document.body]).animate(
+      {
+        scrollTop: $("#service").offset().top,
+      },
+      1000
+    );
+  });
 </script>
 <script type="text/javascript">
-    $("#nav-catalog").click(function() {
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#catalog").offset().top -80
-        }, 1000);
-    });
+  $("#nav-catalog").click(function () {
+    $([document.documentElement, document.body]).animate(
+      {
+        scrollTop: $("#catalog").offset().top - 80,
+      },
+      1000
+    );
+  });
 </script>
 <script type="text/javascript">
-    $("#nav-contact").click(function() {
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#contact").offset().top
-        }, 1000);
-    });
+  $("#nav-contact").click(function () {
+    $([document.documentElement, document.body]).animate(
+      {
+        scrollTop: $("#contact").offset().top,
+      },
+      1000
+    );
+  });
 </script>
